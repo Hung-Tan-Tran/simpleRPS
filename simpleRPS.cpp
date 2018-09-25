@@ -10,7 +10,7 @@ void printChoice(int i)
 		cout << "ROCK";
 	else if(i == 2)
 		cout << "PAPER";
-	else
+	else if (i == 3)
 		cout << "SCISSORS";
 }
 
@@ -29,8 +29,6 @@ int main()
 	cout << "1 - ROCK\n";
 	cout << "2 - PAPER\n";
 	cout << "3 - SCISSORS\n";
-
-	int i = 0;
 
 	while(1)
 	{
